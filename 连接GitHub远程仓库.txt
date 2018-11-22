@@ -18,6 +18,8 @@ Github 远程仓库
 
 把本地仓库的内容推送到GitHub仓库
 	git remote add origin https://github.com/XLhutong/gitstore.git
+	git remote add origin git@github.com:XLhutong/gitstore.git 
+	【注：】 可以有多种地址  第二种更快
 把本地库的所有内容推送到远程库上
 	git push -u origin master
 	由于远程库是空的，
