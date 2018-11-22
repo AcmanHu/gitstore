@@ -5,3 +5,14 @@
 	git checkout dev
 然后，用git branch命令查看当前分支：
 	git branch
+现在，dev分支的工作完成，我们就可以切换回master分支：
+	git checkout master
+	切换回master分支后，
+	再查看一个readme.txt文件，
+	刚才添加的内容不见了！
+	因为那个提交是在dev分支上，
+	而master分支此刻的提交点并没有变：
+现在，我们把dev分支的工作成果合并到master分支上：
+	git merge dev
+合并完成后，就可以放心地删除dev分支了：
+	git branch -d dev
